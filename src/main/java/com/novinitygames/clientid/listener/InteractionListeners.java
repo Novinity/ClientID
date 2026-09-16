@@ -59,7 +59,7 @@ public class InteractionListeners {
 
                 p.setSprinting(false);
                 p.setDeltaMovement(new Vec3(0,0,0));
-                p.hurtMarked = true;
+                p.syncVelocity = true;
 
                 p.getCamera().setXRot(data.pitch());
                 p.getCamera().setYRot(data.yaw());
